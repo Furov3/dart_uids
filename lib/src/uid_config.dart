@@ -4,7 +4,7 @@ class UIDConfig {
   static const DEFAULT_LENGTH = 6;
 
   /// Значение [_alphabet] по умолчанию
-  static const DEFAULT_ALPHABET = '0123456789ABCDEFGHIJKLMNPQRSTUVWZYX';
+  static const DEFAULT_ALPHABET = '0123456789ABCDEFGHIJKLMNPQRSTUVWXYZ';
 
   /// Длина сгенерированного UID
   int _length;

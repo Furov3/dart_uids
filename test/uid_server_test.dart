@@ -1,10 +1,11 @@
 import 'dart:io';
 import 'dart:async';
-import '../lib/uid_server.dart';
 
 import 'package:test/test.dart';
 import 'dart:convert';
+
 import 'package:dart_uids/config.dart';
+import 'package:dart_uids/uid_server.dart';
 
 Future main() async {
   var _config = Config.instance().server;

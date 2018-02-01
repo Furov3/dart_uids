@@ -4,7 +4,7 @@ class ServerConfig {
   static const DEFAULT_PORT = 7777;
 
   /// Значение [_host] по умолчанию
-  static const DEFAULT_HOST = '127.0.0.1';
+  static const DEFAULT_HOST = '0.0.0.0';
 
   /// Номер порта
   int _port;
